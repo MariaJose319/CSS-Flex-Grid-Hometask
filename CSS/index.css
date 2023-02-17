@@ -1,0 +1,241 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("/assets/Oswald/Oswald-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("/assets/Source_Sans_Pro/SourceSansPro-Light.ttf");
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Oswald';
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+}
+
+.header {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    text-transform: uppercase;
+    padding-top: 2%;
+
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu>a {
+    text-decoration: none;
+    flex: 1 2 auto;
+    color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+}
+
+.menu>a:hover {
+    text-decoration: underline 3px;
+}
+
+.menu>ul {
+    flex: 3 1 auto;
+    list-style: none;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu>ul>li>a {
+    text-decoration: none;
+    color: #FFFFFF;
+    letter-spacing: 0.2em;
+    font-size: 14px;
+}
+
+.menu>ul>li>a:hover {
+    text-decoration: underline 3px;
+}
+
+.menu>ul>li {
+    flex: 0 0 13%;
+    margin: 0px 4px;
+    text-align: center;
+    /* 
+    border: 2px solid red; */
+}
+
+.container1 {
+    background-image: url(/assets/Desktop_Backgrounds_1920x1200_6\ 3\ \(1\).png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    padding-bottom: 15%;
+    margin: 0%;
+    border: 0%;
+}
+
+.container1 img {
+    width: 63px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    display: block;
+
+}
+
+.container1 h1 {
+    width: 31.83%;
+    height: auto;
+    margin-left: 34.08%;
+    color: #FFFFFF;
+}
+
+.container1 h2 {
+    width: 35.5%;
+    height: auto;
+    margin-left: 32.25%;
+    color: #FFFFFF;
+}
+
+.container2 {
+    width: auto;
+    height: auto;
+    background-color: #EEEEEE;
+    margin: 0%;
+    border: 0%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.container2 h1 {
+    width: 55.75%;
+    height: auto;
+    margin-left: 22.125%;
+    color: #464547;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.container2 h2 {
+    width: 35.5%;
+    height: auto;
+    margin-left: 32.25%;
+    color: #666666;
+    margin-top: 3%;
+}
+
+.grid-container {
+    color: #666666;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    margin: 0% 12.5%;
+    gap: 6.9%;
+}
+
+
+.container2 button {
+    background: #55C2D8;
+    border-radius: 18px;
+    border: 0px;
+    font-family: 'Oswald';
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 115px;
+    padding: 5px 18px 5px 18px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2%;
+}
+
+.container3 {
+    background-image: url(/assets/IMG_1334_72dpi_RGB_\ 1\ \(1200x666\).png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    margin: 0%;
+    border: 0%;
+    color: #FFFFFF;
+}
+
+.container3 button {
+    border-radius: 50%;
+    background-color: #39C2D7;
+    color: #FFFFFF;
+    width: 150px;
+    height: 150px;
+    font-size: 70px;
+    text-align: center;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.content3 h2 {
+    width: 32.5%;
+    margin-left: 33.75%;
+}
+
+.footer {
+    height: 180px;
+    background-color: #464547;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro';
+    padding: 4% 6% 0% 8%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+
+.footer p {
+    margin: 0%;
+}
+
+
+.footer a {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.footer div span {
+    margin-left: 0.8%;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 18px;
+}
+
+.footer>div {
+    grid-column: 1 / 2;
+}
+
+.footer>p {
+    grid-column: 3 / 4;
+}
+
+.footer>a {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+}
+
+.footer>small {
+    grid-column: 6 / 8;
+    grid-row: 2 / 3;
+}
